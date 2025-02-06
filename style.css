@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	background: rgb(220, 214, 214);
+	font-family: Arial, sans-serif;
+	font-weight: 800;
+}
+
+.navi {
+	width: 60%;
+	margin: 0 auto;
+}
+
+header {
+  background: #793875;
+   
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+ 
+  padding: 10px 0;
+     text-align: center;
+}
+.head{text-align: center }
+nav {
+  float: center;
+}
+
+nav ul {
+ text-align: start
+}
+.search-bar {
+  width: 200px; 
+  padding: 5px; 
+  border: 2px solid #ccc; 
+  border-radius: 25px; 
+  outline: none; 
+  font-size: 16px;
+}
+
+nav ul li {
+  display: inline-block;
+    padding: 20px;color: black;position: relative;}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.text-centermy-4{text-align: center;}
+.fa-user-circle{color: black}
+.head3{text-align: center}
+h2{text-align: center }
+.img{width: 25%;height: 92%;margin: 10px;border: 1px solid black;}
+.photos{border-bottom: 1px solid black; }
+.name{font-family: cursive;text-align: center;margin: 0;padding: 0;}
+.new{height: 600px;margin-top: 50px;}
+.fourimgsC{height:48%;margin: 10px;display: flex}
+.profile-btn {
+  border: none;
+  background-color: #adb0b2;
+  color: rgb(19, 18, 18);
+  border-radius:10px;
+  cursor: pointer; 
+}
+ 
+.cart-btn {
+  border: none;
+  background-color: #adb0b2;
+  color: rgb(19, 18, 18);
+  border-radius:10px;
+  cursor: pointer; 
+}
+.fav-btn {
+  border: none;
+  background-color: #adb0b2;
+  color: rgb(19, 18, 18);
+  border-radius:10px;
+  cursor: pointer; 
+}
+
+.Fav{text-align: center}
+.SeeAll{margin-left: 700px;color: black;}
+.photoss{height:300px;width: 200px;padding-left: 130px;}
+.oneimage{width: 25%;height: 92%;}
+.names{font-family: cursive;text-align: center;margin-left: 100px;}
+.card-text{font-family: cursive;text-align: center;margin-left: 100px;}
+
+.footer{
+width: 80%;
+height: 40 vh;
+background-color:  #793875;
+color:rgb(13, 11, 11);
+display: flex;
+text-align:start ;
+flex-wrap:wrap;
+margin: 0 ;
+}
+.Hfooter{
+display: flex;
+flex-direction: column;
+margin-right: 4rem;
+}
+.Hfooter a {
+color: white;
+text-decoration: none;
+}
+    .footercont{
+    margin-left: 8px;
+background-color:  #793875;
+padding-bottom: 4rem;
+color: white;
+
+}
